@@ -3,9 +3,9 @@ import Book from "../assets/book.png";
 const HeroSection = () => {
   return (
     <>
-      <section className="container mx-auto px-4 py-16 grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <section className="container p-6 mx-auto px-4 py-16 grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="flex flex-col justify-center">
-          <h1 className="text-4xl lg:text-7xl font-bold mb-4 text-[#181E4B]">
+          <h1 className="text-2xl lg:text-6xl font-bold mb-4 text-[#181E4B]">
             Search & review <br /> your
             <span className="text-[#4475F2]"> fav book</span>
             <br /> effortlessly
