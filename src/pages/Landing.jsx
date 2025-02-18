@@ -1,4 +1,5 @@
 import BackgroundHeader from "../components/BackgroundHeader";
+import Features from "../components/FeatureSection";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
 
@@ -9,6 +10,7 @@ const Landing = () => {
       <div className="relative">
         <Navbar />
         <HeroSection />
+        <Features />
       </div>
     </div>
   );
