@@ -2,6 +2,7 @@ import BackgroundHeader from "../components/BackgroundHeader";
 import Features from "../components/FeatureSection";
 import HeroSection from "../components/HeroSection";
 import Navbar from "../components/Navbar";
+import Services from "../components/ServiceSection";
 
 const Landing = () => {
   return (
@@ -11,6 +12,7 @@ const Landing = () => {
         <Navbar />
         <HeroSection />
         <Features />
+        <Services />
       </div>
     </div>
   );
