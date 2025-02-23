@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Logo from "../assets/Logo.svg";
+import { Link, useNavigate } from "react-router-dom";
 import {
   Dialog,
   DialogPanel,
@@ -65,7 +66,12 @@ const callsToAction = [
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const navigate = useNavigate();
 
+  const handleLoginClick = () => {
+    navigate("/login");
+    setMobileMenuOpen(false);
+  };
   return (
     <header className="mt-5 ">
       <nav
@@ -74,13 +80,13 @@ const Navbar = () => {
       >
         <div className="flex items-center gap-20">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Lidia</span>
               <div className="flex items-center gap-2">
                 <img alt="" src={Logo} className="h-8 w-auto" />
                 <span className="text-xl font-bold">Lidia</span>
               </div>
-            </a>
+            </Link>
           </div>
           <div className="flex lg:hidden">
             <button
@@ -170,7 +176,10 @@ const Navbar = () => {
           </PopoverGroup>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <button className="px-12 py-2 bg-white text-sm/6  font-bold text-[#181E4B] rounded-lg hover:bg-gray-100">
+          <button
+            onClick={handleLoginClick}
+            className="px-12 py-2 bg-white text-sm/6  font-bold text-[#181E4B] rounded-lg hover:bg-gray-100"
+          >
             Login
           </button>
         </div>
