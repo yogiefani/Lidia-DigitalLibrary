@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="w-full text-black">
       <div className="mx-auto px-4 py-8">
-        <div className="container mx-auto">
+        <div className="max-w-[90%] mx-auto">
           <div className="flex justify-between mb-4">
             <h2 className="text-2xl font-bold">Managed By</h2>
             <h2 className="text-2xl font-bold">Social Media</h2>

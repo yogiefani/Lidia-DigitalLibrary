@@ -3,7 +3,7 @@ import Book from "../assets/book.png";
 const HeroSection = () => {
   return (
     <>
-      <section className="container p-6 mx-auto px-4 py-16 grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <section className="max-w-[90%] p-6 mx-auto px-4 py-16 grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="flex flex-col justify-center">
           <h1 className="text-2xl lg:text-6xl font-bold mb-4 text-[#181E4B]">
             Search & review <br /> your

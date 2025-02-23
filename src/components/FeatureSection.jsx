@@ -2,7 +2,7 @@ import FeatureCard from "../components/Card/FeatureCard";
 import featuresDummy from "../data/featuresDummy";
 const Features = () => {
   return (
-    <section className="container mx-auto px-4 py-16">
+    <section className="max-w-[90%] mx-auto px-4 py-16">
       <div className="mb-12">
         <span className="text-[#4475F2] font-bold mb-4 block">FEATURES</span>
         <h2 className="text-4xl font-bold flex items-center gap-2">

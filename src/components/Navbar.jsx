@@ -70,7 +70,7 @@ const Navbar = () => {
     <header className="mt-5 ">
       <nav
         aria-label="Global"
-        className="container mx-auto px-4 py-6 flex justify-between items-center  lg:px-8"
+        className="max-w-[90%] mx-auto px-4 py-6 flex justify-between items-center  lg:px-8"
       >
         <div className="flex items-center gap-20">
           <div className="flex lg:flex-1">

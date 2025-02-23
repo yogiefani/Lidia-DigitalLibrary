@@ -2,7 +2,7 @@ import ReviewCard from "../components/Card/ReviewCard";
 import reviewsDummy from "../data/reviewsDummy";
 const Reviews = () => {
   return (
-    <section className="container mx-auto px-4 py-16">
+    <section className="max-w-[90%] mx-auto px-4 py-16">
       <div className="mb-12">
         <span className="text-[#4737FF] font-semibold mb-4 block">REVIEWS</span>
         <h2 className="text-4xl font-bold flex items-center gap-2">
